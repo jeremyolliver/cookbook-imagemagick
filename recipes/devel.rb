@@ -25,7 +25,7 @@ dev_pkgs = value_for_platform(
   "ubuntu" => {
     "8.04" => ["libmagick9-dev"],
     "8.10" => ["libmagick9-dev"],
-    "12.04" => ["libmagickcore4-extra", "libmagickcore-dev", "libmagickwand-dev"]
+    "12.04" => ["libmagickcore4-extra", "libmagickcore-dev", "libmagickwand-dev"],
     "default" => ["libmagickwand-dev"]
   }
 )
